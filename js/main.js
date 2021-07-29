@@ -17,7 +17,7 @@ alert('I numeri da memorizzare sono ' + numeri);
 // Dopo 30 secondi l'utente deve inserire, uno alla volta, i numeri che ha visto precedentemente, tramite il prompt().
 // Dopo che sono stati inseriti i 5 numeri, il software dice quanti e quali dei numeri da indovinare sono stati individuati.
 alert('Inserisci i numeri che ricordi (non puoi inserire due numeri uguali)');
-setTimeout(inserisciNumeri, 2000);
+setTimeout(inserisciNumeri, 30000);
 
 
 //funzioni
